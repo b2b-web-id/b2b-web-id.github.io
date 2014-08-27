@@ -11,14 +11,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../css/reveal.css">
-  <link rel="stylesheet" href="../css/theme/default.css" id="theme">
-  <link rel="stylesheet" href="../lib/css/zenburn.css">
+  <link rel="stylesheet" href="https://b2b-web-id.github.io/css/reveal.css">
+  <link rel="stylesheet" href="https://b2b-web-id.github.io/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="https://b2b-web-id.github.io/lib/css/zenburn.css">
   <script>
    var link = document.createElement( 'link' );
    link.rel = 'stylesheet';
    link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? '../css/print/pdf.css' : '../css/print/paper.css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://b2b-web-id.github.io/css/print/pdf.css' : 'https://b2b-web-id.github.io/css/print/paper.css';
    document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
   <!--[if lt IE 9]>
@@ -62,8 +62,8 @@
     </section>
    </div>
   </div>
-  <script src="../lib/js/head.min.js"></script>
-  <script src="../js/reveal.js"></script>
+  <script src="https://b2b-web-id.github.io/lib/js/head.min.js"></script>
+  <script src="https://b2b-web-id.github.io/js/reveal.js"></script>
   <script>
    Reveal.initialize({
     controls: true,
@@ -73,12 +73,12 @@
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'default', // none/fade/slide/convex/concave/zoom
     dependencies: [
-     { src: '../lib/js/classList.js', condition: function() { return !document.body.classList; } },
-     { src: '../plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-     { src: '../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-     { src: '../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-     { src: '../plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-     { src: '../plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+     { src: 'https://b2b-web-id.github.io/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+     { src: 'https://b2b-web-id.github.io/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+     { src: 'https://b2b-web-id.github.io/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+     { src: 'https://b2b-web-id.github.io/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+     { src: 'https://b2b-web-id.github.io/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+     { src: 'https://b2b-web-id.github.io/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
     ]
    });
   </script>
